@@ -78,7 +78,7 @@ function App() {
         <hr className="line"/>
         <button
           className="copyBtn"
-          onClick={() => doCopy("https://kapable.github.io/everything/")}>✉🔗 모바일 초대장 링크 복사하기</button>
+          onClick={() => doCopy("https://kapable.github.io/everything/")}>🔗 모바일 초대장 링크 복사하기</button>
         <a
           className="App-link"
           href="https://reactjs.org"

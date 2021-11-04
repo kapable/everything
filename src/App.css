@@ -63,11 +63,14 @@
 }
 
 .copyBtn {
-  width: 13rem;
-  height: 4rem;
+  width: 17rem;
+  height: 5rem;
   border: none;
   background-color: white;
+  color: black;
+  text-decoration: none;
   font-weight: bolder;
+  font-size: large;
   display: block;
   text-align: center;
   margin: 3rem auto;
