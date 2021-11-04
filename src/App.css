@@ -1,16 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.long {
+  max-width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.to-map {
+  max-width: 400px;
 }
 
 .App-header {
@@ -28,11 +27,33 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.schedule {
+  font-family: "Nanum Myeongjo", serif;
+  margin-bottom: 2rem;
+}
+
+.schedule ul {
+  line-height: 2rem;
+  text-align: left;
+}
+
+.invite {
+  max-width: 20rem;
+  line-height: 1.5rem;
+  font-family: "Nanum Myeongjo", serif;
+  margin-bottom: 2rem;
+}
+
+.map h2 {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.to-map {
+  max-width: 350px;
+}
+
+.line {
+  size: 3px;
+  width: 10rem;
+  color: #eaeaea;
 }
