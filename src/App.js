@@ -17,7 +17,7 @@ function App() {
           <br/>
           정리하고 다듬어
           <br/>
-          '왕홍의 모든 것' 도서를 출간하게 되었습니다.
+          <strong>'왕홍의 모든 것'</strong> 도서를 출간했습니다.
           <br/>
           부디 참석하시어 자리를 빛내 주시고
           <br/>
@@ -25,6 +25,8 @@ function App() {
           <br/>
           응원해주시기 바랍니다.
           </p>
+          <br/>
+          <h4>작가 이혜란 드림.</h4>
         </div>
         <hr className="line"/>
         <div className="schedule">
@@ -43,7 +45,7 @@ function App() {
           <p>
             <strong>도로명 주소</strong><br/>서울시 영등포구 은행로 30<br/>(여의도동, 중소기업중앙회)<br/><br/>
             <strong>지번 주소</strong><br/>서울시 영등포구 여의도동 16-2<br/>중소기업중앙회 지하 1층<br/><br/>
-            <strong>대표번호</strong><br/>02-784-0000
+            <strong>문의 대표번호</strong><br/>02-784-0000
           </p>
         </div>
         <hr className="line"/>

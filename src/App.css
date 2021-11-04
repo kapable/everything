@@ -44,6 +44,10 @@
   margin-bottom: 2rem;
 }
 
+.map {
+  line-height: 2rem;
+}
+
 .map h2 {
   font-family: "Nanum Myeongjo", serif;
 }
