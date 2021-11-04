@@ -61,3 +61,15 @@
   width: 10rem;
   color: #eaeaea;
 }
+
+.copyBtn {
+  width: 13rem;
+  height: 4rem;
+  border: none;
+  background-color: white;
+  font-weight: bolder;
+  display: block;
+  text-align: center;
+  margin: 3rem auto;
+  top: 5rem;
+}
