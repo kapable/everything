@@ -5,7 +5,8 @@
 }
 
 .long {
-  max-width: 400px;
+  width: 300px;
+  /* max-width: 400px; */
 }
 
 .to-map {
