@@ -36,9 +36,15 @@ function App() {
       <header className="App-header">
         <div className="top">
           <h1 className="main-title">Invitation</h1>
-          {/* <div className="only-box"></div> */}
-          {/* <img src={long} className="long" alt="logo" /> */}
           <img src={square} className="squre" alt="logo" />
+          <h3 className="info-text">
+            2021.11.19 &nbsp;&nbsp;&nbsp; 2:30 pm
+            <br/>
+            중소기업중앙회 여의도회관 지하 1층
+            <br/>
+            <br/>
+            작가 이혜란
+          </h3>
         </div>
         <div className="invite">
           <h2 style={{marginTop:"3rem"}}>모시는 글</h2>
