@@ -35,6 +35,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="top">
+          <h1 className="main-title">Invitation</h1>
           {/* <div className="only-box"></div> */}
           {/* <img src={long} className="long" alt="logo" /> */}
           <img src={square} className="squre" alt="logo" />
