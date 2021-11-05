@@ -4,9 +4,28 @@
   text-align: center;
 }
 
-.long {
-  width: 300px;
-  /* max-width: 400px; */
+.top {
+  position: inherit;
+  align-items: center;
+  background-color: #2f5241;
+  width: 400px;
+  height: 400px;
+}
+
+.only-box {
+  position: absolute;
+  top: 7px;
+  left: -17px;
+  width: 280px;
+  height: 763px;
+  border: 2px solid;
+  border-color: #beb24a;
+  z-index: 0;
+}
+
+.squre {
+  margin-top: 30px;
+  max-width: 338px;
 }
 
 .to-map {
@@ -14,14 +33,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: #faf7f6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(7px + 2vmin);
+  color: #2f5241;
 }
 
 .App-link {
@@ -60,15 +80,15 @@
 .line {
   size: 3px;
   width: 10rem;
-  color: #eaeaea;
+  border-color: whtie;
 }
 
 .copyBtn {
   width: 17rem;
   height: 5rem;
   border: none;
-  background-color: white;
-  color: #282c34;
+  background-color: #2f5241;
+  color: white;
   text-decoration: none;
   font-weight: bolder;
   font-size: large;

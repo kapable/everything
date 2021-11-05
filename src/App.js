@@ -1,5 +1,6 @@
 import React  from 'react';
 import long from './images/long.jpg';
+import square from './images/square.jpg';
 import toMap from './images/to-map.png';
 import './App.css';
 
@@ -33,7 +34,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={long} className="long" alt="logo" />
+        <div className="top">
+          {/* <div className="only-box"></div> */}
+          {/* <img src={long} className="long" alt="logo" /> */}
+          <img src={square} className="squre" alt="logo" />
+        </div>
         <div className="invite">
           <h2 style={{marginTop:"3rem"}}>모시는 글</h2>
           <p>그동안 보내주신 응원과 후의에
