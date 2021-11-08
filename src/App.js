@@ -1,6 +1,6 @@
 import React  from 'react';
-import long from './images/long.jpg';
 import square from './images/square.jpg';
+import bookCover from './images/book-cover.png';
 import toMap from './images/to-map.png';
 import './App.css';
 
@@ -38,12 +38,43 @@ function App() {
           <h1 className="main-title">Invitation</h1>
           <img src={square} className="squre" alt="logo" />
           <h3 className="info-text">
-            2021.11.19 &nbsp;&nbsp;&nbsp; 2:30 pm
+            2021.11.19(금) &nbsp;&nbsp;&nbsp; 2:30 pm
             <br/>
             중소기업중앙회 여의도회관 지하 1층
             <br/>
             <br/>
             작가 이혜란
+          </h3>
+          <hr className="head-line"/>
+          <img src={bookCover} className="squre" alt="book-cover" style={{marginTop: '2rem'}}/>
+          <h3 className="info-text">
+            【网红的一切】 李蕙兰作者出版纪念书本演唱会
+            <br/>
+            AIKUA 代表 李蕙兰
+            <br/>
+            <br/>
+            活动日期 ： &nbsp; 2021.11.19（星期五）下午2点半
+            <br/>
+            地点 ： KBIZ 中小企业中央会汝矣岛会馆<br/>地下1楼 GRAND HALL
+            <br/>
+            仲裁员 : thePersons, Seeyong Lee 主编
+          </h3>
+          <hr className="head-line"/>
+          <h3 className="info-text">
+            [Everything You Have to Know About “WANG HONG”]
+            <br/>
+            AIKUA CEO Hyeran Lee
+            <br/>
+            <br/>
+            2:30 pm, 19th Nov, 2021
+            <br/>
+            The Grand Hall B1,
+            <br/>
+            KBIZ Korea Federation of Small and Medium Business,
+            <br/>
+            Yeouido-dong, Yeongdeungpo-gu, Seoul, Korea
+            <br/>
+            Moderator : Seeyong Lee, thePersons chief-editor
           </h3>
         </div>
         <div className="invite">
@@ -81,6 +112,7 @@ function App() {
         <div className="map">
           <h2>오시는 길</h2>
           <img src={toMap} className="to-map" alt="중소기업중앙회 더파티움"/>
+          <p className="traffic">* 당일 주변 교통이 혼잡하오니,<br/>가급적 대중교통 이용을 권장드립니다.</p>
           <p>
             <strong>도로명 주소</strong><br/>서울시 영등포구 은행로 30<br/>(여의도동, 중소기업중앙회)<br/><br/>
             <strong>지번 주소</strong><br/>서울시 영등포구 여의도동 16-2<br/>중소기업중앙회 지하 1층<br/><br/>

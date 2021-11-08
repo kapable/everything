@@ -15,7 +15,7 @@
   align-items: center;
   background-color: #2f5241;
   /* width: 400px; */
-  height: 590px;
+  height: 1700px;
 }
 
 .main-title {
@@ -34,11 +34,16 @@
   font-family: "Noto Serif KR", serif;
   font-size: 0.9rem;
   margin: 2rem auto;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 
 .to-map {
   max-width: 400px;
+}
+
+.traffic {
+  line-height: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .App-header {
@@ -68,7 +73,7 @@
 }
 
 .invite {
-  margin-top: 39rem;
+  margin-top: 108rem;
   max-width: 20rem;
   line-height: 1.5rem;
   font-family: "Nanum Myeongjo", serif;
@@ -85,6 +90,12 @@
 
 .to-map {
   max-width: 350px;
+}
+
+.head-line {
+  size: 3px;
+  width: 10rem;
+  border-color: whtie;
 }
 
 .line {
