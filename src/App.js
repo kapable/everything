@@ -36,6 +36,7 @@ function App() {
       <header className="App-header">
         <div className="top">
           <h1 className="main-title">Invitation</h1>
+          <h4 className="live">On-off line book concert<br/>실시간 Live commerce Starting</h4>
           <img src={square} className="squre" alt="logo" />
           <h3 className="info-text">
             2021.11.19(금) &nbsp;&nbsp;&nbsp; 2:30 pm
